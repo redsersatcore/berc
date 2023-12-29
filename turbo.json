@@ -10,6 +10,18 @@
     ".prettierrc.js",
     "tsconfig.json"
   ],
+  {
+  "$schema": "https://turbo.build/schema.json",
+  "globalEnv": ["APP_ENV", "CI", "DEBUG", "NODE_ENV", "GITHUB_TOKEN"],
+  "globalDependencies": [
+    ".eslintignore",
+    ".eslint.js",
+    ".npmrc",
+    ".nvmrc",
+    ".prettierignore",
+    ".prettierrc.js",
+    "tsconfig.json"
+  ],
   
     "build": {
       "outputs": [
